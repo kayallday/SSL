@@ -1,0 +1,30 @@
+/**
+Name: Kelsey Beard
+Course/Project: pseudo_delete
+Date: 11 December, 2016
+
+*/
+
+Key/Legend:
+/ = Start/End
+! = Input
+* = Decision
+a/b = Yes, or no
+
+/ Start PHP /
+
+1 - Call to DB "SSL" using PDO
+2 - Use SuperGlobal $_GET to define '$id'
+3 - 'prepare' will select vales for '$id'
+4 - 'bindParam' will gather and bind values for $id
+
+! Execute $stmt
+
+5 - 'header' will re-direct browser to 'ads.php'
+
+* Are you able to delete a row one by one? *
+
+a - If no, go back and re-evaluate code
+b - If yes, congrats! You have successfully enable the delete option
+
+/ All steps have been completed
